@@ -1,22 +1,11 @@
 import React from "react";
+import { CSmartTable } from "@coreui/react-pro";
+import { CBadge, CButton, CCollapse, CCardBody } from "@coreui/react";
+
 import { useState } from "react";
 import "@coreui/coreui/dist/css/coreui.min.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
-import "@coreui/coreui/dist/css/coreui.min.css";
-import {
-  CCard,
-  CCardBody,
-  CCardHeader,
-  CCol,
-  CRow,
-  CTable,
-  CTableBody,
-  CTableCaption,
-  CTableDataCell,
-  CTableHead,
-  CTableHeaderCell,
-  CTableRow,
-} from "@coreui/react";
+
 export default function Home() {
   const [details, setDetails] = useState([]);
   const columns = [
